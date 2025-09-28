@@ -1,0 +1,19 @@
+=== Grocery Checklist ===
+
+Produce:
+• [ ] Bananas
+
+Bakery:
+• [ ] Blue Berry Muffins
+
+Dairy / Refrigerated:
+• [ ] Milk - 1/2 gal
+
+Beverages / Water:
+• [ ] Lemonade
+
+Unsorted / New Items:
+• [ ] Corn Bread
+• [ ] Pumpkin Seed w Salt or honey roasted with salt
+• [ ] Crest mouth rinse as small as you can get.
+
