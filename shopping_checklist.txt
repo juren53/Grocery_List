@@ -1,19 +1,25 @@
 === Grocery Checklist ===
 
 Produce:
-• [ ] Bananas
+• [ ] 2 Dole salad
+• [ ] 4 golden delicious apples
 
-Bakery:
-• [ ] Blue Berry Muffins
+Deli / Prepared Foods:
+• [ ] egg salad
+• [ ] 1/2 lb. off the bone turkey
+• [ ] tuna salad
+
+Cereal & Breakfast:
+• [ ] 2 Wheaties
+• [ ] nutra grain breakfast bars
+
+Snacks:
+• [ ] grilled cheese crackers
+• [ ] 2 lay's low sodium chips
 
 Dairy / Refrigerated:
-• [ ] Milk - 1/2 gal
-
-Beverages / Water:
-• [ ] Lemonade
-
-Unsorted / New Items:
-• [ ] Corn Bread
-• [ ] Pumpkin Seed w Salt or honey roasted with salt
-• [ ] Crest mouth rinse as small as you can get.
+• [ ] hiland lowfat cottage cheese
+• [ ] 4 egg bites asiato mushroom
+• [ ] 1 dozen eggs
+• [ ] milk
 

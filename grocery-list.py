@@ -1,4 +1,10 @@
-# grocery_list_sorter_clipboard.py
+#!/usr/bin/python3
+# grocery-list.py
+#-----------------------------------------------------------
+# Grocery list organizer and sorter by store sections
+# Takes shopping list from clipboard and sorts by walking order
+# last edited on Mon 07 Oct 2024 02:55:45 PM UTC - initial header
+#-----------------------------------------------------------
 
 import pyperclip
 
@@ -13,8 +19,10 @@ else:
     print("⚠️ Clipboard empty — using fallback demo list...\n")
     shopping_list = [
         "bananas",
+        "golden delicious apple",
         "egg salad",
         "1 Dole salad",
+        "off the bone turkey",
         "Tuna salad",
         "Cole slaw",
         "mini blueberry muffins",
@@ -50,8 +58,8 @@ sections = {
 
 # Keywords per section
 keywords = {
-    "Produce": ["banana", "dole salad"],
-    "Deli / Prepared Foods": ["egg salad", "tuna salad", "chicken salad", "cole slaw", "bologna"],
+    "Produce": ["banana", "dole salad","golden delicious apple"],
+    "Deli / Prepared Foods": ["egg salad", "tuna salad", "chicken salad", "cole slaw", "bologna","off the bone turkey"],
     "Bakery": ["muffin"],
     "Juice & Canned Fruit": ["apple sauce", "cranberry"],
     "Cereal & Breakfast": ["wheaties", "nutra", "cheerios", "cherrios"],
