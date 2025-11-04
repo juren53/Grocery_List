@@ -1,0 +1,4 @@
+#!/bin/bash
+# CLI wrapper for grocery-list.py
+cd /home/juren/Projects/Grocery_List
+python3 /home/juren/Projects/Grocery_List/grocery-list.py "$@"

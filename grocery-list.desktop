@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Grocery List Organizer
+Comment=Organize shopping lists by store sections from clipboard
+Exec=/usr/bin/python3 /home/juren/Projects/Grocery_List/grocery-list.py
+Icon=accessories-text-editor
+Terminal=true
+Categories=Utility;Office;
+Keywords=grocery;shopping;list;organizer;clipboard;
+StartupNotify=true
+MimeType=text/plain;

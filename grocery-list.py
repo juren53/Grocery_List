@@ -20,6 +20,7 @@ else:
     shopping_list = [
         "bananas",
         "golden delicious apple",
+        "bartlett pears",
         "egg salad",
         "1 Dole salad",
         "off the bone turkey",
@@ -58,7 +59,7 @@ sections = {
 
 # Keywords per section
 keywords = {
-    "Produce": ["banana", "dole salad","golden delicious apple"],
+    "Produce": ["banana", "dole salad","golden delicious apple","bartlett pears"],
     "Deli / Prepared Foods": ["egg salad", "tuna salad", "chicken salad", "cole slaw", "bologna","off the bone turkey"],
     "Bakery": ["muffin"],
     "Juice & Canned Fruit": ["apple sauce", "cranberry"],
