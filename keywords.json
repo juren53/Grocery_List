@@ -1,0 +1,47 @@
+{
+    "Produce": [
+        "banana",
+        "dole salad",
+        "golden delicious apple",
+        "bartlett pears"
+    ],
+    "Deli / Prepared Foods": [
+        "egg salad",
+        "tuna salad",
+        "chicken salad",
+        "cole slaw",
+        "bologna",
+        "off the bone turkey"
+    ],
+    "Bakery": [
+        "muffin"
+    ],
+    "Juice & Canned Fruit": [
+        "apple sauce",
+        "cranberry"
+    ],
+    "Cereal & Breakfast": [
+        "wheaties",
+        "nutra",
+        "cheerios",
+        "cherrios"
+    ],
+    "Snacks": [
+        "cracker",
+        "chip"
+    ],
+    "Dairy / Refrigerated": [
+        "milk",
+        "cheese",
+        "orange juice",
+        "egg"
+    ],
+    "Beverages / Water": [
+        "water",
+        "coke",
+        "lemonade",
+        "soda",
+        "cola",
+        "tea"
+    ]
+}

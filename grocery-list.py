@@ -1,12 +1,26 @@
 #!/usr/bin/python3
 # grocery-list.py
+# Version: 2.0.0
+# Last Updated: 2025-11-04T22:22:53Z
 #-----------------------------------------------------------
 # Grocery list organizer and sorter by store sections
 # Takes shopping list from clipboard and sorts by walking order
-# last edited on Mon 07 Oct 2024 02:55:45 PM UTC - initial header
+#
+# Changelog:
+# v2.0.0 (2025-11-04) - Refactored to use external JSON files for
+#                       sections and keywords configuration
+# v1.0.0 (2024-10-07) - Initial version with hardcoded sections
 #-----------------------------------------------------------
 
 import pyperclip
+import json
+from datetime import datetime
+
+# Version information
+VERSION = "2.0.0"
+LAST_UPDATED = "2025-11-04T22:22:53Z"
+
+print(f"Grocery List Organizer v{VERSION} (Updated: {LAST_UPDATED})\n")
 
 # Try to pull list from clipboard
 raw_clipboard = pyperclip.paste().strip()
@@ -45,29 +59,16 @@ else:
         "Chocolate Milk"
     ]
 
-# Store sections in walking order
-sections = {
-    "Produce": [],
-    "Deli / Prepared Foods": [],
-    "Bakery": [],
-    "Juice & Canned Fruit": [],
-    "Cereal & Breakfast": [],
-    "Snacks": [],
-    "Dairy / Refrigerated": [],
-    "Beverages / Water": []
-}
+# Load sections from JSON file
+with open("sections.json", "r") as f:
+    section_names = json.load(f)
 
-# Keywords per section
-keywords = {
-    "Produce": ["banana", "dole salad","golden delicious apple","bartlett pears"],
-    "Deli / Prepared Foods": ["egg salad", "tuna salad", "chicken salad", "cole slaw", "bologna","off the bone turkey"],
-    "Bakery": ["muffin"],
-    "Juice & Canned Fruit": ["apple sauce", "cranberry"],
-    "Cereal & Breakfast": ["wheaties", "nutra", "cheerios", "cherrios"],
-    "Snacks": ["cracker", "chip"],
-    "Dairy / Refrigerated": ["milk", "cheese", "orange juice", "egg"],
-    "Beverages / Water": ["water", "coke", "lemonade", "soda", "cola", "tea"]
-}
+# Load keywords from JSON file
+with open("keywords.json", "r") as f:
+    keywords = json.load(f)
+
+# Initialize sections dictionary with empty lists
+sections = {section: [] for section in section_names}
 
 # Categorization logic
 for item in shopping_list:
@@ -89,7 +90,10 @@ for item in shopping_list:
     sections[best_section].append(item)
 
 # Print neatly to console
-print("\n=== Grocery List (Walking Order) ===\n")
+generated_time = datetime.now()
+formatted_time = generated_time.strftime("%A, %B %d, %Y at %I:%M %p")
+
+print(f"\n=== Grocery List (Walking Order) ===\nGenerated: {formatted_time}\n")
 for section, items in sections.items():
     if items:
         print(f"{section}:")
@@ -98,8 +102,12 @@ for section, items in sections.items():
         print()
 
 # Save to checklist file
+generated_time = datetime.now()
+formatted_time = generated_time.strftime("%A, %B %d, %Y at %I:%M %p")
+
 with open("shopping_checklist.txt", "w") as f:
-    f.write("=== Grocery Checklist ===\n\n")
+    f.write("=== Grocery Checklist ===\n")
+    f.write(f"Generated: {formatted_time}\n\n")
     for section, items in sections.items():
         if items:
             f.write(f"{section}:\n")
