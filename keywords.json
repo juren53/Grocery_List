@@ -3,7 +3,14 @@
         "banana",
         "dole salad",
         "golden delicious apple",
-        "bartlett pears"
+        "bartlett pears",
+        "zucchini",
+        "corn",
+        "squash",
+        "cauliflower (insoluble)",
+        "broccoli",
+        "carrots",
+        "beets"
     ],
     "Deli / Prepared Foods": [
         "egg salad",
@@ -30,6 +37,11 @@
         "cracker",
         "chip"
     ],
+    "Frozen Foods": [
+        "frozen",
+        "ice cream",
+        "pizza"
+    ],
     "Dairy / Refrigerated": [
         "milk",
         "cheese",
@@ -42,6 +54,7 @@
         "lemonade",
         "soda",
         "cola",
-        "tea"
+        "tea",
+        "leomade"
     ]
 }
