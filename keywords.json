@@ -2,12 +2,12 @@
     "Produce": [
         "banana",
         "dole salad",
-        "golden delicious apple",
-        "bartlett pears",
+        "apple",
+        "pears",
         "zucchini",
         "corn",
         "squash",
-        "cauliflower (insoluble)",
+        "cauliflower",
         "broccoli",
         "carrots",
         "beets"
@@ -18,10 +18,14 @@
         "chicken salad",
         "cole slaw",
         "bologna",
-        "off the bone turkey"
+        "turkey"
     ],
     "Bakery": [
         "muffin"
+    ],
+    "Candy/Nuts": [
+        "cashews",
+        "mints"
     ],
     "Juice & Canned Fruit": [
         "apple sauce",
@@ -56,5 +60,9 @@
         "cola",
         "tea",
         "leomade"
+    ],
+    "Condiments": [
+        "relish",
+        "olive"
     ]
 }
