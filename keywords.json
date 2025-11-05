@@ -1,5 +1,5 @@
 {
-    "Produce": [
+    "Produce / Fresh Fruits & Vegetables": [
         "banana",
         "dole salad",
         "apple",
@@ -10,7 +10,37 @@
         "cauliflower",
         "broccoli",
         "carrots",
-        "beets"
+        "beets",
+        "lettuce",
+        "tomato",
+        "onion",
+        "potato",
+        "pepper",
+        "cucumber",
+        "spinach",
+        "berries",
+        "grapes",
+        "orange",
+        "melon",
+        "avocado"
+    ],
+    "Floral": [
+        "flowers",
+        "roses",
+        "bouquet",
+        "plant"
+    ],
+    "Bakery": [
+        "muffin",
+        "bread",
+        "buns",
+        "rolls",
+        "bagel",
+        "donut",
+        "croissant",
+        "cake",
+        "pie",
+        "cookies"
     ],
     "Deli / Prepared Foods": [
         "egg salad",
@@ -18,39 +48,50 @@
         "chicken salad",
         "cole slaw",
         "bologna",
-        "turkey"
+        "turkey",
+        "ham",
+        "roast beef",
+        "salami",
+        "rotisserie",
+        "sandwich"
     ],
-    "Bakery": [
-        "muffin"
-    ],
-    "Candy/Nuts": [
-        "cashews",
-        "mints"
-    ],
-    "Juice & Canned Fruit": [
-        "apple sauce",
-        "cranberry"
-    ],
-    "Cereal & Breakfast": [
-        "wheaties",
-        "nutra",
-        "cheerios",
-        "cherrios"
-    ],
-    "Snacks": [
-        "cracker",
-        "chip"
-    ],
-    "Frozen Foods": [
-        "frozen",
-        "ice cream",
-        "pizza"
+    "Meat & Seafood": [
+        "chicken",
+        "beef",
+        "pork",
+        "steak",
+        "ground beef",
+        "sausage",
+        "bacon",
+        "fish",
+        "salmon",
+        "shrimp",
+        "tilapia",
+        "tuna steak"
     ],
     "Dairy / Refrigerated": [
         "milk",
         "cheese",
-        "orange juice",
-        "egg"
+        "egg",
+        "butter",
+        "yogurt",
+        "sour cream",
+        "cream cheese",
+        "cottage cheese",
+        "half and half",
+        "whipped cream"
+    ],
+    "Frozen Foods": [
+        "frozen",
+        "ice cream",
+        "pizza",
+        "frozen dinner",
+        "frozen vegetables",
+        "frozen fruit",
+        "popsicle",
+        "frozen pizza",
+        "pot pie",
+        "tv dinner"
     ],
     "Beverages / Water": [
         "water",
@@ -58,11 +99,178 @@
         "lemonade",
         "soda",
         "cola",
-        "tea",
-        "leomade"
+        "leomade",
+        "pepsi",
+        "sprite",
+        "ginger ale",
+        "sparkling water",
+        "sports drink",
+        "energy drink"
     ],
-    "Condiments": [
+    "Juice & Canned Fruit": [
+        "apple sauce",
+        "cranberry",
+        "orange juice",
+        "apple juice",
+        "grape juice",
+        "fruit cocktail",
+        "peaches",
+        "pears canned",
+        "pineapple",
+        "mandarin"
+    ],
+    "Condiments / Sauces / Oils": [
         "relish",
-        "olive"
+        "olive",
+        "ketchup",
+        "mustard",
+        "mayonnaise",
+        "mayo",
+        "bbq sauce",
+        "hot sauce",
+        "soy sauce",
+        "salad dressing",
+        "vinegar",
+        "olive oil",
+        "vegetable oil",
+        "cooking spray"
+    ],
+    "Canned Goods / Soups": [
+        "soup",
+        "canned beans",
+        "canned corn",
+        "canned tomatoes",
+        "broth",
+        "stock",
+        "chili",
+        "condensed"
+    ],
+    "Pasta / Rice / Grains": [
+        "pasta",
+        "spaghetti",
+        "noodles",
+        "macaroni",
+        "rice",
+        "quinoa",
+        "couscous",
+        "orzo"
+    ],
+    "International Foods": [
+        "salsa",
+        "tortilla",
+        "taco",
+        "asian",
+        "mexican",
+        "italian",
+        "ethnic"
+    ],
+    "Baking Supplies": [
+        "flour",
+        "sugar",
+        "baking soda",
+        "baking powder",
+        "vanilla",
+        "chocolate chips",
+        "cocoa",
+        "yeast",
+        "powdered sugar",
+        "brown sugar"
+    ],
+    "Cereal & Breakfast": [
+        "wheaties",
+        "nutra",
+        "cheerios",
+        "cherrios",
+        "cereal",
+        "oatmeal",
+        "granola",
+        "breakfast bar",
+        "pop tarts",
+        "pancake mix",
+        "syrup",
+        "waffle"
+    ],
+    "Snacks / Chips / Crackers": [
+        "cracker",
+        "chip",
+        "pretzels",
+        "popcorn",
+        "tortilla chips",
+        "doritos",
+        "cheetos",
+        "lays",
+        "ritz"
+    ],
+    "Candy / Nuts / Dried Fruit": [
+        "cashews",
+        "mints",
+        "candy",
+        "chocolate",
+        "gum",
+        "almonds",
+        "peanuts",
+        "walnuts",
+        "raisins",
+        "dried cranberries",
+        "trail mix"
+    ],
+    "Coffee / Tea": [
+        "tea",
+        "coffee",
+        "k-cups",
+        "tea bags",
+        "instant coffee"
+    ],
+    "Baby / Infant Care": [
+        "diapers",
+        "wipes",
+        "baby food",
+        "formula",
+        "baby"
+    ],
+    "Health & Beauty / Personal Care": [
+        "shampoo",
+        "conditioner",
+        "soap",
+        "toothpaste",
+        "deodorant",
+        "lotion",
+        "tissue",
+        "razor",
+        "shaving cream"
+    ],
+    "Pharmacy / Medicine": [
+        "medicine",
+        "aspirin",
+        "ibuprofen",
+        "tylenol",
+        "advil",
+        "vitamins",
+        "supplements",
+        "band-aid",
+        "prescription"
+    ],
+    "Paper Products / Cleaning Supplies": [
+        "paper towels",
+        "toilet paper",
+        "napkins",
+        "kleenex",
+        "dish soap",
+        "laundry detergent",
+        "bleach",
+        "cleaner",
+        "sponge",
+        "trash bags",
+        "aluminum foil",
+        "plastic wrap",
+        "ziploc"
+    ],
+    "Pet Supplies": [
+        "dog food",
+        "cat food",
+        "pet food",
+        "dog treats",
+        "cat treats",
+        "litter"
     ]
 }
