@@ -1,12 +1,14 @@
 #!/usr/bin/python3
 # grocery-list.py
-# Version: 2.1.1
-# Last Updated: 2025-11-05T00:26:27Z
+# Version: 2.1.3
+# Last Updated: 2025-11-05T16:24:10-06:00
 #-----------------------------------------------------------
 # Grocery list organizer and sorter by store sections
 # Takes shopping list from clipboard and sorts by walking order
 #
 # Changelog:
+# v2.1.3 (2025-11-05) - Added section_editor.py GUI utility for managing
+#                       sections.json with drag-and-drop reordering
 # v2.1.1 (2025-11-05) - Added interactive categorization for unsorted items
 #                       with automatic keyword learning 
 # v2.0.0 (2025-11-04) - Refactored to use with external JSON files for
@@ -19,8 +21,8 @@ import json
 from datetime import datetime
 
 # Version information
-VERSION = "2.1.1"
-LAST_UPDATED = "2025-11-05T00:26:27Z"
+VERSION = "2.1.3"
+LAST_UPDATED = "2025-11-05T16:24:10-06:00"
 
 print(f"Grocery List Organizer v{VERSION} (Updated: {LAST_UPDATED})\n")
 
