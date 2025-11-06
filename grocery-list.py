@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # grocery-list.py
-# Version: 2.1.3
-# Last Updated: 2025-11-05T16:24:10-06:00
+# Version: 2.1.4
+# Last Updated: 2025-11-06T05:49:55-06:00
 #-----------------------------------------------------------
 # Grocery list organizer and sorter by store sections
 # Takes shopping list from clipboard and sorts by walking order
@@ -18,11 +18,12 @@
 
 import pyperclip
 import json
+import re
 from datetime import datetime
 
 # Version information
-VERSION = "2.1.3"
-LAST_UPDATED = "2025-11-05T16:24:10-06:00"
+VERSION = "2.1.4"
+LAST_UPDATED = "2025-11-06T05:49:55-06:00"
 
 print(f"Grocery List Organizer v{VERSION} (Updated: {LAST_UPDATED})\n")
 
@@ -81,7 +82,9 @@ for item in shopping_list:
 
     for section, keys in keywords.items():
         for k in keys:
-            if k in lower_item:
+            # Use word boundary matching to avoid substring matches
+            # e.g., "corn" won't match "popcorn" or "pop corn"
+            if re.search(r'\b' + re.escape(k) + r'\b', lower_item):
                 scores[section] += 1
 
     best_section = max(scores, key=scores.get)
@@ -157,7 +160,7 @@ if "Unsorted / New Items" in sections and sections["Unsorted / New Items"]:
 generated_time = datetime.now()
 formatted_time = generated_time.strftime("%A, %B %d, %Y at %I:%M %p")
 
-print(f"\n=== Grocery List (Walking Order) ===\nGenerated: {formatted_time}\n")
+print(f"\n=== Grocery List (Walking Order) === v{VERSION}\nGenerated: {formatted_time}\n")
 for section, items in sections.items():
     if items:
         print(f"{section}:")
@@ -170,7 +173,7 @@ generated_time = datetime.now()
 formatted_time = generated_time.strftime("%A, %B %d, %Y at %I:%M %p")
 
 with open("shopping_checklist.txt", "w") as f:
-    f.write("=== Grocery Checklist ===\n")
+    f.write(f"=== Grocery Checklist === v{VERSION}\n")
     f.write(f"Generated: {formatted_time}\n\n")
     for section, items in sections.items():
         if items:
