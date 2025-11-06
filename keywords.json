@@ -5,7 +5,7 @@
         "apple",
         "pears",
         "zucchini",
-        "corn",
+        "corn on the cob",
         "squash",
         "cauliflower",
         "broccoli",
@@ -22,7 +22,11 @@
         "grapes",
         "orange",
         "melon",
-        "avocado"
+        "avocado",
+        "fruit",
+        "seeds",
+        "mixed fruit",
+        "bananas"
     ],
     "Floral": [
         "flowers",
@@ -40,7 +44,8 @@
         "croissant",
         "cake",
         "pie",
-        "cookies"
+        "cookies",
+        "mini blueberry muffins"
     ],
     "Deli / Prepared Foods": [
         "egg salad",
@@ -53,7 +58,8 @@
         "roast beef",
         "salami",
         "rotisserie",
-        "sandwich"
+        "sandwich",
+        "lobster bisque"
     ],
     "Meat & Seafood": [
         "chicken",
@@ -117,7 +123,9 @@
         "peaches",
         "pears canned",
         "pineapple",
-        "mandarin"
+        "mandarin",
+        "peas in cups",
+        "mango juice"
     ],
     "Condiments / Sauces / Oils": [
         "relish",
@@ -195,11 +203,15 @@
         "chip",
         "pretzels",
         "popcorn",
+        "Pop Corn",
         "tortilla chips",
         "doritos",
         "cheetos",
         "lays",
-        "ritz"
+        "ritz",
+        "vortmann waffos",
+        "pop corn",
+        "1 low sodium lay's chips"
     ],
     "Candy / Nuts / Dried Fruit": [
         "cashews",
