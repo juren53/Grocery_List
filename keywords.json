@@ -2,7 +2,6 @@
     "Produce / Fresh Fruits & Vegetables": [
         "banana",
         "dole salad",
-        "apple",
         "pears",
         "zucchini",
         "corn on the cob",
@@ -26,7 +25,8 @@
         "fruit",
         "seeds",
         "mixed fruit",
-        "bananas"
+        "bananas",
+        "golden delicious apple"
     ],
     "Floral": [
         "flowers",
