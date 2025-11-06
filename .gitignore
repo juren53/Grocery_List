@@ -78,3 +78,6 @@ Thumbs.db
 *.tmp
 *.bak
 *.log
+
+# Shopping checklist (user-specific)
+shopping_checklist.txt
