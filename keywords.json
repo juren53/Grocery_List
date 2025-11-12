@@ -2,7 +2,6 @@
     "Produce / Fresh Fruits & Vegetables": [
         "banana",
         "dole salad",
-        "pears",
         "zucchini",
         "corn on the cob",
         "squash",
@@ -26,7 +25,9 @@
         "seeds",
         "mixed fruit",
         "bananas",
-        "golden delicious apple"
+        "golden delicious apple",
+        "golden delicious apples",
+        "dole salads"
     ],
     "Floral": [
         "flowers",
@@ -86,7 +87,8 @@
         "cream cheese",
         "cottage cheese",
         "half and half",
-        "whipped cream"
+        "whipped cream",
+        "country crock - original"
     ],
     "Frozen Foods": [
         "frozen",
@@ -122,11 +124,13 @@
         "grape juice",
         "fruit cocktail",
         "peaches",
+        "Dole diced pears in 100% juice",
         "pears canned",
         "pineapple",
         "mandarin",
         "peas in cups",
-        "mango juice"
+        "mango juice",
+        "dole diced pears in 100% juice"
     ],
     "Condiments / Sauces / Oils": [
         "relish",
@@ -212,7 +216,8 @@
         "ritz",
         "vortmann waffos",
         "pop corn",
-        "1 low sodium lay's chips"
+        "1 low sodium lay's chips",
+        "1 bag lay's low sodium chips"
     ],
     "Candy / Nuts / Dried Fruit": [
         "cashews",
