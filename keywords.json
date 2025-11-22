@@ -81,7 +81,6 @@
         "chocolate milk",
         "cheese",
         "egg",
-        "butter",
         "yogurt",
         "sour cream",
         "cream cheese",
@@ -114,7 +113,8 @@
         "ginger ale",
         "sparkling water",
         "sports drink",
-        "energy drink"
+        "energy drink",
+        "7up"
     ],
     "Juice & Canned Fruit": [
         "apple sauce",
@@ -215,9 +215,12 @@
         "lays",
         "ritz",
         "vortmann waffos",
+        "Orville redenbacker with butter",
         "pop corn",
         "1 low sodium lay's chips",
-        "1 bag lay's low sodium chips"
+        "1 bag lay's low sodium chips",
+        "1 lay's low sodium chips",
+        "orville redenbacker with butter"
     ],
     "Candy / Nuts / Dried Fruit": [
         "cashews",
@@ -273,6 +276,7 @@
         "toilet paper",
         "napkins",
         "kleenex",
+        "air freshener",
         "dish soap",
         "laundry detergent",
         "bleach",
@@ -281,7 +285,8 @@
         "trash bags",
         "aluminum foil",
         "plastic wrap",
-        "ziploc"
+        "ziploc",
+        "Glade"
     ],
     "Pet Supplies": [
         "dog food",
